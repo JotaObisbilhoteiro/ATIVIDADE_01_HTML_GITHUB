@@ -1,59 +1,148 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>TODO: Título da página</title>
+
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      body { 
+        margin:0;
+        color:rgb(0, 0, 0);
+          background-color:rgb(255, 0, 0)
+          font-family:
+
+      }
+    </style>
   </head>
+  
 
   <body>
     <!-- TODO 01: HEADER com H1 (título) e P (subtítulo) -->
-     <article>
+    <div class="container" id="página">
+      <header class="box" id="cabeçalho">
+        <div class="header-interno">
+          <h1 class="título">Site do mengão</h1>
+        </div>
+      </header>
+
+      <nav class="box" id="menu">
+        <div class="nav-interno">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#apresentação">Mengudo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Galeria">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Tabela">Missões</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <main id="conteúdo">
+      <div class="row" id="linha-1">
+        <section class="box-panel" id="apresentação">
+          <h2>Quem é o mengudo?</h2>
+
+          <p>O mengudo é o time do povo, palmeiras não tem mundial.</p>
+
+          <p>Zico>Pele, Gabigol>Dudu.</p>
+        </section>
+      </div>
+      <section class="box" id="galeria"
+      <h2>Galeria</h2>
+      <div class= "gallery" id="galeria-imagem"
+      <img class="bat-img" src="FLAVAS.png" alt="CHUPA VASCO" width="220" height="120">
+      <img class="bat-img" src="FLAPAL.png" alt="CHUPA VASCO" width="220" height="120">
+      <img class="bat-img" src="FLAFLU.png" alt="CHUPA VASCO" width="220" height="120">
+    
+    </h2>
+
+
+
+    </main>
+
+    <article>
       <header>
         <h1>Maiores Times Da NFL</h1>
-        <p>Por: João Pedro Santoro  </p>
+        <p>Por: João Pedro Santoro</p>
       </header>
-     </article>
+    </article>
 
     <!-- TODO 02: NAV com uma lista (UL/LI) e 3 links (A) -->
     <!-- Dica: use href="https://..." ou href="#" -->
-     <nav>
-      <a href="https://en.wikipedia.org/wiki/1972_Miami_Dolphins_season">DOLPHINS 1972</a>
-      <a href="https://en.wikipedia.org/wiki/2007_New_England_Patriots_season">PATRIOTS 2007</a>
-      <a href="https://en.wikipedia.org/wiki/1985_Chicago_Bears_season">BEARS 1985</a>
-      <a href="https://en.wikipedia.org/wiki/1984_San_Francisco_49ers_season">49ERS 1984</a>
-      <a href="https://en.wikipedia.org/wiki/1999_St._Louis_Rams_season">RAMS 1999</a>
-
-     </nav>
+    <nav>
+      <a href="https://en.wikipedia.org/wiki/1972_Miami_Dolphins_season"
+        >DOLPHINS 1972</a
+      >
+      <a href="https://en.wikipedia.org/wiki/2007_New_England_Patriots_season"
+        >PATRIOTS 2007</a
+      >
+      <a href="https://en.wikipedia.org/wiki/1985_Chicago_Bears_season"
+        >BEARS 1985</a
+      >
+      <a href="https://en.wikipedia.org/wiki/1984_San_Francisco_49ers_season"
+        >49ERS 1984</a
+      >
+      <a href="https://en.wikipedia.org/wiki/1999_St._Louis_Rams_season"
+        >RAMS 1999</a
+      >
+    </nav>
 
     <!-- TODO 03: MAIN com as seções abaixo -->
-     <main>
-
-    <!-- SEÇÃO A: Apresentação -->
-    <!-- Use SECTION, inclua H2 e 2 parágrafos (P).
+    <main>
+      <!-- SEÇÃO A: Apresentação -->
+      <!-- Use SECTION, inclua H2 e 2 parágrafos (P).
          Em algum trecho use STRONG e em outro use EM. -->
       <section>
         <h2>TOP TIER</h2>
-        <p> O top 1 dessa lista são os dolphins de 1972, eles são o único time da história a terminar a temporada <em> <strong>invictos!</strong> </em>. Seguidos pelo top 2, os patriots de 2007 que terminaram a temporada regular invictos liderando a liga em quase todos os aspectos, mas perderam o Super Bowl para os Giants do jovem Eli Manning></p>
-        <p> No top 3 os Bears detêm o recorde de mais sacks em uma temporada se colocando em destaque como a maior defesa da história, no top 4 os 49ers de 1984 contou uma grande temporada de um dos maiores QB's da liga, Joe Montana. Fechando o top 5 os Rams de 99 revolucionaram a NFL adotando uma postura agressiva e se destacando como maior ataque da história da NFL.</p>
+        <p>
+          O top 1 dessa lista são os dolphins de 1972, eles são o único time da
+          história a terminar a temporada <em> <strong>invictos!</strong> </em>.
+          Seguidos pelo top 2, os patriots de 2007 que terminaram a temporada
+          regular invictos liderando a liga em quase todos os aspectos, mas
+          perderam o Super Bowl para os Giants do jovem Eli Manning>
+        </p>
+        <p>
+          No top 3 os Bears detêm o recorde de mais sacks em uma temporada se
+          colocando em destaque como a maior defesa da história, no top 4 os
+          49ers de 1984 contou uma grande temporada de um dos maiores QB's da
+          liga, Joe Montana. Fechando o top 5 os Rams de 99 revolucionaram a NFL
+          adotando uma postura agressiva e se destacando como maior ataque da
+          história da NFL.
+        </p>
       </section>
-         
-    <!-- SEÇÃO B: Lista -->
-    <!-- Use SECTION, inclua H2 e uma lista (UL ou OL) com 4 itens (LI). -->
 
-    <!-- SEÇÃO C: Mídia -->
-    <!-- Use SECTION, inclua H2 e um FIGURE com:
+      <!-- SEÇÃO B: Lista -->
+      <!-- Use SECTION, inclua H2 e uma lista (UL ou OL) com 4 itens (LI). -->
+
+      <!-- SEÇÃO C: Mídia -->
+      <!-- Use SECTION, inclua H2 e um FIGURE com:
          - IMG com src="", alt="", width="", height=""
          - FIGCAPTION descrevendo a imagem
          Regras: alt não pode ficar vazio; não usar style.
     -->
 
-    <!-- SEÇÃO D: Tabela -->
-    <!-- Use SECTION, inclua H2 e uma TABLE com:
+      <!-- SEÇÃO D: Tabela -->
+      <!-- Use SECTION, inclua H2 e uma TABLE com:
          - uma linha de cabeçalho (TR) com TH: Item | Descrição | Prioridade
          - 3 linhas (TR) com TD (valores livres, coerentes)
-    -->
-</main>
-    <!-- TODO 04: FOOTER com um P e um link (A) para uma fonte usada na pesquisa -->
+    --></main>
+    <footer class="box" id="rodapé">
+      <p class="texto-rodapé">
+
+        <a class="link" href="#topo"Topo/n></a>
+        </p>
+        <p class="texto-rodapé">
+        </p>
+      </p>
+    </footer>
   </body>
 </html>
